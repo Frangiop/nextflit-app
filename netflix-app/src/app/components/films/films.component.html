@@ -1,0 +1,16 @@
+<p>films works!</p>
+
+<ng-template [ngIf]="comedyFilms.length > 0">
+    <div>
+     <ul>
+      <li *ngFor="let comedy of comedyFilms;let index = index">
+    </li>
+    </ul>
+    </div>
+    </ng-template>
+
+
+    <section>
+<h2> {{info.title.tipo}} </h2>
+<img src="{{info.peli.iamge.src}} " alt=" {{info.title.iamge.alt}} " >
+    </section>
